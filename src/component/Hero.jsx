@@ -1,14 +1,19 @@
-//import Font Awesome styles and icons once font-awwesome installed(npm install --save font-awesome)
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
-const Footer = () => {
+const Hero = () => {
   return (
-    <>
-      <hr />
-      <div className="footer-container">
-        <p>© {new Date().getFullYear()} Tensae's Portfolio</p>
-        <div className="social_icons">
+    <div className="hero-container">
+      <Image
+        src="/me.jpg"
+        className="profile-img"
+        width={300}
+        height={300}
+        alt="Tensae's personal headshot"
+      />
+      <div className="hero-text">
+        <h1>Hey, I'm Tensae 😄 </h1>
+        <p>I'm a software developer</p>
+        <div className="social-icons">
           <a
             href="https://github.com/tensae12"
             aria-label="GitHub"
@@ -27,8 +32,8 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Footer;
+export default Hero;
