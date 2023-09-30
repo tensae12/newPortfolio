@@ -11,8 +11,10 @@ const Hero = () => {
         alt="Tensae's personal headshot"
       />
       <div className="hero-text">
-        <h1>Hey, I'm Tensae 😄 </h1>
-        <p>I'm a software developer</p>
+        <h1>Hey, I'm Tensae 👋🏽 </h1>
+        <p>
+          I'm a Software & Hardware Engineer based in San Francisco Bay Area.
+        </p>
         <div className="social-icons">
           <a
             href="https://github.com/tensae12"

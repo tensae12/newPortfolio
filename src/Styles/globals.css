@@ -37,7 +37,6 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
-  background-color: #656b76;
 }
 
 .nav-container .logo {
@@ -46,7 +45,7 @@ li {
 }
 
 .cta-btn {
-  background-color: #ffcc1a;
+  background-color: #ee4f43;
   color: #1d1e20;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -247,6 +246,7 @@ hr {
 
 .skills-container .grid-skills .skill-card {
   background-color: #dadadb;
+  height: 50px;
   color: #1d1e20;
   display: flex;
   justify-content: center;
@@ -262,29 +262,55 @@ hr {
 .skills-container .grid-skills i {
   font-size: 1.5rem;
 }
-
-.skills-container .grid-skills .html:hover {
-  background-color: #e34f26;
+.skills-container .grid-skills .java {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 100%, #ddd 50%);
 }
 
-.skills-container .grid-skills .css:hover {
-  background-color: #264de4;
+.skills-container .grid-skills .css {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 30%, #ddd 50%);
 }
 
-.skills-container .grid-skills .js:hover {
-  background-color: #f7df1e;
+.skills-container .grid-skills .ts {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 70%, #ddd 50%);
 }
 
-.skills-container .grid-skills .react:hover {
-  background-color: #61dafb;
+.skills-container .grid-skills .kb {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 70%, #ddd 50%);
 }
 
-.skills-container .grid-skills .node:hover {
-  background-color: #339933;
+.skills-container .grid-skills .react {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 30%, #ddd 50%);
 }
 
-.skills-container .grid-skills .python:hover {
-  background-color: #3776ab;
+.skills-container .grid-skills .docker {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 90%, #ddd 50%);
+}
+
+.skills-container .grid-skills .python {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 100%, #ddd 50%);
+}
+.skills-container .grid-skills .az {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 50%, #ddd 50%);
+}
+.skills-container .grid-skills .gg {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 50%, #ddd 50%);
+}
+.skills-container .grid-skills .asb {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 50%, #ddd 50%);
+}
+.skills-container .grid-skills .ccode {
+  background-color: #4caf50;
+  background: linear-gradient(90deg, #4caf50 30%, #ddd 50%);
 }
 
 /* Projects */
