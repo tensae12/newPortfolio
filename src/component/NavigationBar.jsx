@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link href="/">Tensae's Portfolio</Link>
       </div>
       <a
-        href="https://drive.google.com/file/d/11VgP-k4XeOw1JqhWrFCdj0O2mP8mZUFn/view"
+        href="https://drive.google.com/file/d/1tKPMh73rnUOk5S0Qtw4KOCWvuqm_EBYI/view"
         className="cta-btn"
         target="_blank"
         rel="noopener noreferrer"
