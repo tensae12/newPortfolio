@@ -15,15 +15,8 @@ const Hero = () => {
         <p>
           I'm a Software & Hardware Engineer based in San Francisco Bay Area.
         </p>
+        <p> 🎓 EECS, UC Berkeley'21</p>
         <div className="social-icons">
-          <a
-            href="https://github.com/tensae12"
-            aria-label="GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
           <a
             href="http://www.linkedin.com/in/tensae-kebede/"
             aria-label="LinkedIn"
@@ -31,6 +24,15 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/tensae12"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </div>

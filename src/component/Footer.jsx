@@ -10,20 +10,21 @@ const Footer = () => {
         <p>&copy; {new Date().getFullYear()} Tensae's Portfolio</p>
         <div className="social_icons">
           <a
-            href="https://github.com/tensae12"
-            aria-label="GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-          <a
             href="http://www.linkedin.com/in/tensae-kebede/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/tensae12"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </div>

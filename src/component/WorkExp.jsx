@@ -3,10 +3,13 @@ const WorkExperience = () => {
     <div className="work-experience">
       <h2>Work Experience</h2>
       <div className="work-entry">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png"
+          alt="Intel Logo"
+          style={{ width: "60px", height: "30px", marginTop: "2rem" }}
+        />
         <h3>CPU Validation Engineer</h3>
-        <p>Intel</p>
-        <p>Santa Clara</p>
-        <p>2021 - Present</p>
+        <p>Aug 2021 - Present</p>
         <ul className="bullet-list">
           <li>
             Analyzed system-level diagnostic failures for both hardware and
@@ -23,8 +26,34 @@ const WorkExperience = () => {
           <li>Tracked process validation schedules and projects.</li>
           {/* Add more responsibilities or achievements */}
         </ul>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/2560px-Intel_logo_2023.svg.png"
+          alt="Intel Logo"
+          style={{ width: "60px", height: "30px", marginTop: "2rem" }}
+        />
+        <h4>System Validation Engineering Intern</h4>
+        <p>Aug 2020 - May 2021</p>
+        <ul className="bullet-list">
+          <li>
+            Developed a CLI version of Lane Margining tool in python which
+            allows users to run SSD validations that test the quality,
+            reliability, compatibility and data integrity of drives.
+          </li>
+          <li>
+            Designed comprehensive testing plans aimed at validating the drive's
+            quality, reliability, compatibility, and data integrity.
+          </li>
+          <li>
+            Collaborated closely with the team to improve the core codebase of
+            the Lane Margining tool, enhancing its features and optimizing
+            performance.
+          </li>
+          <li>
+            Wokrked with cross-functional teams to gather feedback and insights,
+            driving iterative improvements to the Lane Margining tool.
+          </li>
+        </ul>
       </div>
-      {/* Add more work experience entries */}
     </div>
   );
 };
