@@ -11,7 +11,12 @@ const Navbar = () => {
       <div className="logo">
         <Link href="/">Tensae's Portfolio</Link>
       </div>
-      <a href="" className="cta-btn">
+      <a
+        href="https://drive.google.com/file/d/1BdpmSZ-8V05G6SC7x6aSMWpRyUZnycOL/view"
+        className="cta-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Resume
       </a>
     </div>

@@ -73,7 +73,7 @@ const Skills = () => {
             alt="google cloud Icon"
             style={{ width: "30px", height: "30px" }}
           />
-          <p>Azure cloud</p>
+          <p>Google cloud</p>
         </div>
       </div>
     </div>

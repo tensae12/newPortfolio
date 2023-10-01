@@ -3,6 +3,7 @@ import About from "@/component/About";
 import Skills from "@/component/Skills";
 import Projects from "@/component/Projects";
 import Contact from "@/component/Contact";
+import WorkExperience from "@/component/WorkExp";
 
 import Head from "next/head";
 
@@ -18,6 +19,7 @@ const Home = () => {
       <div>
         <Hero />
         <About />
+        <WorkExperience />
         <Skills />
         <Projects />
         <Contact />

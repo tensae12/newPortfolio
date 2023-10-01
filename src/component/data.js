@@ -1,17 +1,18 @@
 export const projectData = [
   {
     id: 1,
-    title: "Todo List App",
-    description:
-      "A simple Todo List App built with JavaScript. All datas are stored in localstorage. It helps users check list out their plans and tick as they do them.",
+    title: "Guestbook Web Project",
+    description: `I set up Docker containers for the various components of the "Guestbook" project, including the web application, backend services, and databases. Additionally, 
+    I created Kubernetes YAML files to define deployments, services, and pods. To host the application, I established a Google Kubernetes Engine (GKE) cluster through Google Cloud Console.`,
+
     gitHubLink: "https://github.com/olawanlejoel/Todo-List-App",
   },
   {
     id: 2,
-    title: "Books Library App",
-    description:
-      "A simple Book Library App built with JavaScript. It helps readers have a good list of books they are either currently reading or have finished reading.",
-    gitHubLink: "https://github.com/olawanlejoel/Book-Library",
+    title: "Location Based Message Board",
+    description: `I developed a geofencing application in Java that allows users to post and view comments based on their proximity to specific landmarks. This application utilizes the Google Location API to calculate users' distances from various landmarks in real-time. To ensure the reliability of the geolocation features, 
+    I conducted comprehensive unit testing and debugging using JUnit.`,
+    gitHubLink: "https://github.com/tensae12/prog3-starter/tree/master",
   },
   {
     id: 3,
